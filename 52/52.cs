@@ -55,7 +55,6 @@ void FindAverage(int[,] array)
         {
             sum = sum + array[j, i];
         }
-        Console.WriteLine($"Сумма:{sum} + Кол-во строк:{count}");
         average = sum / count;
         Console.WriteLine($"Среднеарифметическое столбца {i + 1}: {Math.Round(average, 2)} ");
     }
